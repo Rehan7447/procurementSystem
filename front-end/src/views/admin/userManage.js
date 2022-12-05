@@ -4,7 +4,7 @@ import { Button, Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import Card from "../../components/admin/statsCard";
 import UserTable from "../../components/admin/userTable";
-
+import "./home.css";
 export default function UserManage() {
   const navigate = useNavigate();
   const [totalUsers, setTotalUsers] = useState([]);

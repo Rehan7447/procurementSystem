@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import RecordsTable from "../../components/table";
+import "./home.css";
 
 export default function MerchHome() {
   const navigate = useNavigate();

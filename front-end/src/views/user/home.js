@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { useNavigate } from "react-router-dom";
 import RecordsTable from "../../components/table";
+import "./home.css";
 
 export default function UserHome() {
   const navigate = useNavigate();

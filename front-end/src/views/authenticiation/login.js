@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./login.css";
+import "./home.css";
 
 export default function Login() {
   const navigate = useNavigate();

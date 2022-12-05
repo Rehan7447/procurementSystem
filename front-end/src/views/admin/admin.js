@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Card from "../../components/admin/statsCard";
 import RecordsTable from "../../components/table";
+import "./home.css";
 
 export default function Admin() {
   const navigate = useNavigate();
