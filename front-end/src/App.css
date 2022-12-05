@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+.App {
+  margin: 20px auto 0;
+  width: 95%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: Raleway, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  background: linear-gradient(90deg, #c7c5f4, #776bcc);
+}
+
+input,
+select,
+textarea,
+label {
+  width: 15rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: transparent !important;
+  color: #3d3386 !important;
+}
+table {
+  color: white !important;
+}
+form {
+  display: inline-block;
+  border-radius: 2px;
+  padding: 2rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.screenTitle {
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: #333;
+  user-select: none;
+}
+
+.m-5-auto {
+  margin: 5rem auto;
+}
+
+.primary-button {
+  padding: 0.5rem;
+  width: 10rem;
+  background: #222;
+  border: 1px solid black;
+  color: #fff;
+  font-size: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  text-transform: capitalize;
+  border-radius: 20px;
+  margin: auto 10px;
+}
+.primary-button:hover {
+  background: rgb(229, 229, 229);
+  color: #222;
+}
+
+/* userHome styles */
+.uhBodyMain {
+  margin: 20px auto 5px !important;
+}
+
+.uhBodyLeft form {
+  margin: 20px auto !important;
+}
+
+.recordsTable {
+  height: 100%;
+  max-height: 550px;
+  overflow-y: scroll;
+  background-color: rgba(77, 77, 77, 0.1);
+}
+
+.uhBodyLeft,
+.uhBodyRight {
+  margin: auto;
+  width: 49% !important;
+  padding: 20px 30px;
+  background: rgba(215, 215, 215, 0.215);
+}
+
+.uhBodyLeft h2,
+.uhBodyRight h2 {
+  color: white;
+}
+
+.uhBodyRight table {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.tableButton {
+  padding: 0.2rem;
+  width: 5em;
+  background-color: rgb(45, 132, 255);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.uhBodyLeft form {
+  background-color: transparent;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 10px;
+}
+/* card for admin page */
+.adminCard {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 350px !important;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.adminCard .col-lg-3 {
+  width: 24% !important;
+}
+
+.adminCardHeader {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+  user-select: none;
+}
+
+.adminCardBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.adminCardValue {
+  width: 100%;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #333;
+  user-select: none;
+}
+
+/* admin styles */
+.adminBody {
+  margin: 20px auto 5px !important;
+}
+
+.currentRequests,
+.allRequests,
+.uhBodyRight,
+.uhBodyLeft {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  margin-top: 3em;
+  border-radius: 20px;
+}
+
+.currentRequests .recordsTable {
+  max-height: 290px;
+  margin-bottom: 50px;
+}
+
+.allRequests .recordsTable {
+  max-height: 500px;
+  margin-bottom: 50px;
+}
+
+.createUserForm {
+  margin: 20px auto;
+}
+
+.createUserForm .requestForm {
+  width: 100%;
+}
+
+.adminFlex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.adminBodyLeft {
+  width: 49% !important;
+  padding: 20px 30px;
+}
+
+.adminBodyLeft label {
+  margin: 10px 0;
+}
+
+.adminBodyLeft .createButton {
+  margin: 20px auto;
+}
+
+.adminBodyLeft input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.adminBodyRight {
+  width: 49% !important;
+  padding: 20px 30px;
+}
+
+.adminBodyRight table {
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  max-height: 200px !important;
+  font-weight: bold;
+}
+.adminBodyRightContent {
+  height: 100%;
+  max-height: 500px !important;
+  overflow-y: scroll;
+}
+
+.adminBodyLeft {
+  margin-top: -20%;
+}
+
+.adminBodyRight table th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc !important;
+}
+
+/* modal body styles */
+.rmBody {
+  margin: 20px auto 5px !important;
+}
+
+.rmBody h5 {
+  margin: 5px;
+  font-size: 1.1rem;
+}
+
+.rmBodyHeader {
+  color: #333;
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rmBodySlot {
+  display: flex;
+  width: 70%;
+  max-width: 500px;
+  margin: 20px 0;
+}
+
+.rmBodySlot h5 {
+  width: 150px;
+}
+
+.rmBodySlot p {
+  width: 350px;
+  margin-left: 10px;
+}
+
+.rmDate {
+  display: flex;
+  user-select: none;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.mfActions button {
+  margin: auto 15px;
+}
+
+.bidsContainer {
+  height: 100px;
+  overflow-y: scroll;
+}
+
+.bidSlot {
+  display: flex;
+}
